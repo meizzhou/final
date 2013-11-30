@@ -1,0 +1,15 @@
+body {
+}
+
+.stream {
+	white-space: nowrap;
+}
+
+img {
+	display: inline-block;
+	max-height: 80%;
+}
+
+img:hover {
+	opacity: .5;
+}
