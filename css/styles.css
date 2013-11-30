@@ -1,15 +1,37 @@
 body {
+	margin-top: 10px;
 }
 
 .stream {
+	margin-left: 180px;
 	white-space: nowrap;
+}
+
+nav {
+	position: fixed;
+	margin-left: 20px;
+	width: 150px;
+	height: 100%;
+	background-color: #FFF;
+	opacity: .9;
+	z-index: 10;
 }
 
 img {
 	display: inline-block;
 	max-height: 80%;
+	opacity: .99;
 }
 
 img:hover {
 	opacity: .5;
+}
+
+.logo {
+	width: 100px;
+}
+
+li {
+	font-size: 150%;
+	list-style-type: none;
 }
