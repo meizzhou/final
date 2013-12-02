@@ -20,11 +20,6 @@ nav {
 .main {
 	display: inline-block;
 	max-height: 90%;
-	opacity: .99;
-}
-
-.main:hover {
-	opacity: .5;
 }
 
 .logo {
