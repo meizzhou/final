@@ -4,8 +4,8 @@ $(function() {
   render(models.entries, $('.template'), $('.albumProfile'));
   render(models.alexAlbum, $('.alexTemplate'), $('.alexContainer'));
   render(models.ambikaAlbum, $('.ambikaTemplate'), $('.ambikaContainer'));
-  render(models.briaunaAlbum, $('.briaunaTemplate'), $('.briaunaContainer'));
-  render(models.devynAlbum, $('.devynTemplate'), $('.devynContainer'));
+  render(models.elleryAlbum, $('.elleryTemplate'), $('.elleryContainer'));
+  render(models.giselleAlbum, $('.giselleTemplate'), $('.giselleContainer'));
 });
 
 function render(entries, template, container) {
