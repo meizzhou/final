@@ -30,6 +30,20 @@ var models = {
         {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/528da940e4b0ce6fb73cecd3/528da95ae4b06e6e83ed5e65/1385015663089/439A9464.jpg?format=1000w"},
         {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/528da940e4b0ce6fb73cecd3/528da96de4b06e6e83ed5e73/1385015703911/439A9576.jpg?format=1000w"},
         {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/528da940e4b0ce6fb73cecd3/528da96be4b06be250abe400/1385015685686/439A9210.jpg?format=1000w"},
+    ],
+    briaunaAlbum: [
+        {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/522e5fa7e4b0ad0c967f9f81/51df9294e4b063b4f5687251/1373606557343/439A9022%20copy.jpg?format=1000w"},
+        {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/522e5fa7e4b0ad0c967f9f81/51df9395e4b0a9f26000a9b7/1373606821421/4B7A5159%20copy%20copy.jpg?format=1000w"},
+        {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/522e5fa7e4b0ad0c967f9f81/51df94dee4b06e89f6311fda/1373607155298/4B7A5724%20copy.jpg?format=1000w"},
+        {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/522e5fa7e4b0ad0c967f9f81/51df963ae4b091cde97ba5ca/1373607506121/4B7A5296%20copy.jpg?format=1000w"},
+        {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/522e5fa7e4b0ad0c967f9f81/51df92a7e4b0d1d8067d7da0/1373606581788/4B7A5732%20copy%20(1).jpg?format=1000w"},
+    ],
+    devynAlbum: [
+        {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/5268b89ee4b0b1f7d8096493/5268b8bbe4b0ffbd70f7b688/1382594790182/439A7605.jpg?format=1000w"},
+        {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/5268b89ee4b0b1f7d8096493/5277375ae4b0c2eac22e93de/1383544689796/439A7199.JPG?format=1000w"},
+        {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/5268b89ee4b0b1f7d8096493/5277417fe4b0878dc12a115d/1383547302111/439A7013.JPG?format=1000w"},
+        {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/5268b89ee4b0b1f7d8096493/52773d0be4b0ffc77a65964d/1383546148703/439A6937.jpg?format=1000w"},
+        {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/5268b89ee4b0b1f7d8096493/5268b8b6e4b09e35aa7ecf3f/1382594778683/439A7546%20bw2.jpg?format=1000w"},
     ]
 };
 
