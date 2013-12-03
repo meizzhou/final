@@ -6,6 +6,8 @@ $(function() {
   render(models.ambikaAlbum, $('.ambikaTemplate'), $('.ambikaContainer'));
   render(models.elleryAlbum, $('.elleryTemplate'), $('.elleryContainer'));
   render(models.giselleAlbum, $('.giselleTemplate'), $('.giselleContainer'));
+  render(models.jenYiAlbum, $('.jenYiTemplate'), $('.jenYiContainer'));
+  render(models.rachelAlbum, $('.rachelTemplate'), $('.rachelContainer'));
 });
 
 function render(entries, template, container) {

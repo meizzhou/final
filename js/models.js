@@ -65,6 +65,26 @@ var models = {
         {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/517f6667e4b01eeb7aea6767/517f8499e4b01eeb7aea83b1/1367311526450/439A1061%20copy%206.20.32%20PM.JPG?format=1000w"},
         {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/517f6667e4b01eeb7aea6767/517f8561e4b0d875cbc79b30/1367311726794/439A2176%20copy.JPG?format=1000w"},
         {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/517f6667e4b01eeb7aea6767/51df964ae4b0535b35b835c3/1373607508955/439A4204%20copy%202%20(1).jpg?format=1000w"},
+    ],
+    jenYiAlbum: [
+        {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/5212d9e3e4b0a807b6554bff/5212da04e4b049f983e45b0e/1376967220627/Jen-Yi%207.jpg?format=1000w"},
+        {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/5212d9e3e4b0a807b6554bff/5212d9fbe4b0a807b6554c22/1376967198703/Jen-Yi%203.jpg?format=1000w"},
+        {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/5212d9e3e4b0a807b6554bff/5212d9f7e4b030489dbf3cdf/1376967181886/Jen-Yi%201.jpg?format=1000w"},
+        {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/5212d9e3e4b0a807b6554bff/5212da01e4b01a5565dadbf3/1376967207694/Jen-Yi%205.jpg?format=1000w"},
+        {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/5212d9e3e4b0a807b6554bff/5212d9ffe4b00cd5639b6f97/1376967203516/Jen-Yi%204.JPG?format=1000w"},
+        {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/5212d9e3e4b0a807b6554bff/5212da05e4b0c36e7d2ae53b/1376967214003/Jen-Yi%206.JPG?format=1000w"},
+    ],
+    rachelAlbum: [
+        {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/527c6700e4b0a8ffbb2a4d07/527c6717e4b0a8ffbb2a4d2e/1383884618828/4B7A7635.jpg?format=1000w"},
+        {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/527c6700e4b0a8ffbb2a4d07/527c6716e4b0fa360f873a4a/1383884637703/4B7A7627.jpg?format=1000w"},
+        {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/527c6700e4b0a8ffbb2a4d07/527c6714e4b0a8ffbb2a4d25/1383884625460/4B7A7573.jpg?format=1000w"},
+        {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/527c6700e4b0a8ffbb2a4d07/528acb1be4b02bb48731002f/1384827699861/4B7A7854.jpg?format=1000w"},
+        {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/527c6700e4b0a8ffbb2a4d07/528acb1ce4b057894c7134a8/1384827709964/4B7A7999.jpg?format=1000w"},
+        {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/527c6700e4b0a8ffbb2a4d07/528acb1de4b02bb487310038/1384827757107/4B7A8028.jpg?format=1000w"},
+        {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/527c6700e4b0a8ffbb2a4d07/528acb22e4b057894c7134b8/1384827703873/4B7A8176.jpg?format=1000w"},
+        {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/527c6700e4b0a8ffbb2a4d07/528acb1fe4b02bb48731003b/1384827690798/4B7A8315.jpg?format=1000w"},
+        {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/527c6700e4b0a8ffbb2a4d07/528acb24e4b02bb487310043/1384827711330/4B7A8352.jpg?format=1000w"},
+        {pic:"http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/527c6700e4b0a8ffbb2a4d07/528acb27e4b057894c7134c2/1384827778228/4B7A8624.jpg?format=1000w"}, 
     ]
 };
 
