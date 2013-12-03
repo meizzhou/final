@@ -8,6 +8,9 @@ $(function() {
   render(models.giselleAlbum, $('.giselleTemplate'), $('.giselleContainer'));
   render(models.jenYiAlbum, $('.jenYiTemplate'), $('.jenYiContainer'));
   render(models.rachelAlbum, $('.rachelTemplate'), $('.rachelContainer'));
+  render(models.shannonAlbum, $('.shannonTemplate'), $('.shannonContainer'));
+  render(models.taylorAlbum, $('.taylorTemplate'), $('.taylorContainer'));
+  render(models.vladAlbum, $('.vladTemplate'), $('.vladContainer'));
 });
 
 function render(entries, template, container) {
