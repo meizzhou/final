@@ -53,3 +53,8 @@ li {
 	float: left;
 	padding: 5px;
 }
+
+.modelstream {
+	max-height: 90%;
+	width: auto;
+}
