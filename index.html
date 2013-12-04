@@ -8,6 +8,7 @@
 		<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/styles.css">
+
 	</head>
 	<body>
 	
@@ -22,11 +23,77 @@
 		</nav>
 
 		<div class="container">
-			<img class="main" src="http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/528da940e4b0ce6fb73cecd3/528da95de4b06be250abe3f5/1385015668533/439A9309.jpg?format=1500w">
-		</div>
+
+            <img class="slideshow" src="img/briaunaProfile.jpg" name="slide" width=700 height=500>
+
+
+            <div class="galleryRow">
+                <div class="galleryItem">
+                    <a href="#"><img src="img/briauna-thumb.jpg" alt="" onclick="changePic()" data-order="1"></a>
+                </div>
+             
+                <div class="galleryItem">
+                    <a href="#"><img src="img/emilie-thumb.jpg" alt="" onclick="changePic()" data-order="2"></a>
+                </div>
+
+                <div class="galleryItem">
+                    <a href="#"><img src="img/giselle-thumb.jpg" alt="" onclick="changePic()" data-order="3"></a>
+                </div>
+
+                <div class="galleryItem">
+                    <a href="#"><img src="img/vlad-thumb.jpg" alt="" onclick="changePic()" data-order="4"></a>
+                </div>
+        
+            </div>
+        
+
+
+
+
+
+			
+		</div> 
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            <!--
+            var image1=new Image()
+            image1.src="img/briaunaProfile.jpg"
+            var image2=new Image()
+            image2.src="img/emilieProfile.jpg"
+            var image3=new Image()
+            image3.src="img/giselleProfile.jpg"
+            var image4=new Image()
+            image4.src="img/vladProfile.jpg"
+            //-->
+        </script>
+        <script type="text/javascript">
+            <!--
+            //variable that will increment through the images
+            var step=1
+
+            function changePic() {
+                step = document.getAttribute("data-order")
+                alert(step)
+                document.images.slide.src=eval("image"+step+".src")
+            }
+
+            function slideit(){
+            //if browser does not support the image object, exit.
+            if (!document.images)
+            return
+            document.images.slide.src=eval("image"+step+".src")
+            if (step<4)
+            step++
+            else
+            step=1
+            //call function "slideit()" every 3.5 seconds
+            setTimeout("slideit()",3500)
+            }
+            slideit()
+            //-->
+        </script>
 		
 	</body>
 </html>

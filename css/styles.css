@@ -124,3 +124,18 @@ li {
 	max-height: 90%;
 	width: auto;
 }
+
+.slideshow {
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 10%;
+}
+
+.galleryRow {
+	margin-left: 30%;
+	padding: 10px;
+}
+.galleryItem {
+	display: inline;
+	padding: 10px;
+}
