@@ -1,7 +1,7 @@
 
 $(function() {
   // Document is ready
-  render(models.entries, $('.template'), $('.albumProfile'));
+  render(models.entries, $('.profileTemplate'), $('.profileContainer'));
   render(models.alexAlbum, $('.alexTemplate'), $('.alexContainer'));
   render(models.ambikaAlbum, $('.ambikaTemplate'), $('.ambikaContainer'));
   render(models.elleryAlbum, $('.elleryTemplate'), $('.elleryContainer'));
@@ -11,6 +11,8 @@ $(function() {
   render(models.shannonAlbum, $('.shannonTemplate'), $('.shannonContainer'));
   render(models.taylorAlbum, $('.taylorTemplate'), $('.taylorContainer'));
   render(models.vladAlbum, $('.vladTemplate'), $('.vladContainer'));
+
+  
 });
 
 function render(entries, template, container) {
@@ -23,14 +25,16 @@ function render(entries, template, container) {
         for (property in this) {
             instance.find('.' + property);
             if (property =='pic') {
+                instance.find('.albumLinks').attr('href', this.name+'.html');
                 instance.find('.pic').attr({
                     src: this.pic,
+                    name: this.name,
                     alt: 'Picture of ' + this.name
                 });
-                 
             } else {
                 instance.find('.' + property).html(this[property]);
             }
+             
         }
         instance.removeClass('template');
         container.append(instance);
