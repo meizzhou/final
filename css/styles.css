@@ -280,10 +280,15 @@ li {
 }
 
 .galleryRow {
-	margin-left: 30%;
+	margin-left: 45%;
 	padding: 10px;
 }
 .galleryItem {
 	display: inline;
 	padding: 10px;
+}
+
+hr {
+	margin-left: 20%;
+	
 }
