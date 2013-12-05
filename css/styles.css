@@ -42,22 +42,15 @@ li {
     display: none;
 }
 
-.album-profile {
-}
-
-.pic {
+.bgImage{
 	background-repeat: no-repeat;
     background-position: 50% 0%, 0;
     background-size: 350px, 500px;
     width: 300px;
     height: 450px;
-	display: inline-block;
-
-}
-
-.bgImage{
 	margin-bottom: 5px;
 	display: inline-block;
+	z-index: 20;
 }
 
 .name1{
@@ -194,11 +187,6 @@ li {
 	}
 }
 
-.modelstream {
-	max-height: 90%;
-	width: auto;
-}
-
 .slideshow {
 	margin-left: 20%;
 	margin-right: 30%;
@@ -237,7 +225,9 @@ a#active {
 	background-color: #C0C0C0;
 }
 
-.pics {
-	width: 300px;
-    display: inline-block;
+.modelstream {
+	display: inline-block;
+	max-height: 90%;
+	width: auto;
+}
 }
