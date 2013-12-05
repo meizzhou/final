@@ -46,6 +46,154 @@ li {
 .pic {
 	width: 300px;
 	display: inline-block;
+
+}
+
+.bg1{
+	background-image: url('http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/519de0a3e4b0fe95295be5a3/519de0f0e4b036d1b98587aa/1369301253779/439A7052%20copy.jpg?format=1000w');
+    background-repeat: no-repeat;
+    background-position: 50% 0%, 0;
+    background-size: 350px, 500px;
+    width:300px;
+    height: 450px;
+}
+
+.bg2{
+	background-image: url('http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/528da940e4b0ce6fb73cecd3/528da95de4b06be250abe3f5/1385015668533/439A9309.jpg?format=1000w');
+    background-repeat: no-repeat;
+    background-position: 50% 0%, 0;
+    background-size: 350px, 500px;
+    width:300px;
+    height: 450px;
+}
+
+.bg3{
+	background-image: url('http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/51ffe049e4b0dae23ff72248/51ffe079e4b02d036c00eec7/1375724510127/ellery9.jpg?format=1000w');
+    background-repeat: no-repeat;
+    background-position: 50% 0%, 0;
+    background-size: 350px, 500px;
+    width:300px;
+    height: 450px;
+}
+
+.bg4{
+	background-image: url('http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/517f6667e4b01eeb7aea6767/517f7ee1e4b02056fe94e6db/1367310065053/439A1335%20copy%206.20.32%20PM.JPG?format=1500w');
+    background-repeat: no-repeat;
+    background-position: 50% 0%, 0;
+    background-size: 350px, 500px;
+    width:300px;
+    height: 450px;
+}
+
+.bg5{
+	background-image: url('http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/5212d9e3e4b0a807b6554bff/5212d9fbe4b0348bfd22a32e/1376967188166/Jen-Yi%202.jpg?format=1000w');
+    background-repeat: no-repeat;
+    background-position: 50% 0%, 0;
+  	background-size: 350px, 500px;
+    width:300px;
+    height: 450px;
+}
+
+.bg6{
+	background-image: url('http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/527c6700e4b0a8ffbb2a4d07/527c6718e4b0fa360f873a4c/1383884618049/4B7A7682-2.jpg?format=1000w');
+    background-repeat: no-repeat;
+    background-position: 50% 0%, 0;
+    background-size: 350px, 500px;
+    width:300px;
+    height: 450px;
+}
+
+.bg7{
+	background-image: url('http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/5213b43fe4b00cd5639d36e1/5213b44ee4b0348bfd24c55f/1377023129870/Shannon%202.jpg?format=1000w');
+    background-repeat: no-repeat;
+    background-position: 50% 0%, 0;
+    background-size: 350px, 500px;
+    width:300px;
+    height: 450px;
+}
+
+.bg8{
+	background-image: url('http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/52026f37e4b0ee324ff2700d/52026f4ce4b0e0889c271755/1375891553838/4B7A2807%E5%89%AF%E6%9C%AC.JPG?format=1000w');
+    background-repeat: no-repeat;
+    background-position: 50% 0%, 0;
+    background-size: 350px, 500px;
+    width:300px;
+    height: 450px;
+}
+
+.bg9{
+	background-image: url('http://static.squarespace.com/static/50a172c6e4b081ffff7b9599/5211d848e4b064b5b5ef1c9d/52123ab8e4b0da5fb643bb4f/1376926447887/439A3834.jpg?format=1500w');
+    background-repeat: no-repeat;
+    background-position: 50% 0%, 0;
+    background-size: 350px, 500px;
+    width:300px;
+    height: 450px;
+}
+
+.bgImage{
+	display: inline-block;
+}
+
+.name1{
+	color:red;
+}
+
+.bgImage:hover{
+    -webkit-animation: moveImg 9s linear infinite forwards;
+	-moz-animation: moveImg 9s linear infinite forwards;
+	-o-animation: moveImg 9s linear infinite forwards;
+	-ms-animation: moveImg 9s linear infinite forwards;
+	animation: moveImg 9s linear infinite forwards;
+	color: rgba(255,255,255,0.4);
+	text-shadow:0px 0px 5px rgba(0,0,0,0.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-transform: rotate(-5deg) translateZ(0);
+	-moz-transform: rotate(-5deg);
+	-o-transform: rotate(-5deg);
+	-ms-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+	z-index: 10;
+	-moz-box-shadow: 2px 2px 20px 4px rgba(0,0,0,0.6), 0px 0px 2px rgba(0,0,0,0.2) inset;
+	-webkit-box-shadow: 2px 2px 20px 4px rgba(0,0,0,0.6), 0px 0px 2px rgba(0,0,0,0.2) inset;
+	box-shadow: 2px 2px 20px 4px rgba(0,0,0,0.6), 0px 0px 2px rgba(0,0,0,0.2) inset;
+}
+
+@-webkit-keyframes moveImg {
+    0%{ 
+		background-position: 50% 0%;
+	}
+	50%{
+		background-position: 50% 100%;
+	}
+	100%{
+		background-position: 50% 0%;
+	}
+}
+@-moz-keyframes moveImg {
+    0%{ 
+		background-position: 50% 0%;
+	}
+	50%{
+		background-position: 50% 100%;
+	}
+	100%{
+		background-position: 50% 0%;
+	}
+}
+@keyframes moveImg {
+    0%{ 
+		background-position: 50% 0%;
+	}
+	50%{
+		background-position: 50% 100%;
+	}
+	100%{
+		background-position: 50% 0%;
+	}
 }
 
 .details {
@@ -63,11 +211,11 @@ li {
 }
 
 .details:hover{
-	-webkit-animation: moveImg 9s linear infinite forwards;
-	-moz-animation: moveImg 9s linear infinite forwards;
-	-o-animation: moveImg 9s linear infinite forwards;
-	-ms-animation: moveImg 9s linear infinite forwards;
-	animation: moveImg 9s linear infinite forwards;
+	-webkit-animation: 9s linear infinite forwards;
+	-moz-animation: 9s linear infinite forwards;
+	-o-animation: 9s linear infinite forwards;
+	-ms-animation: 9s linear infinite forwards;
+	animation: 9s linear infinite forwards;
 	color: rgba(255,255,255,0.4);
 	text-shadow:0px 0px 5px rgba(0,0,0,0.1);
 	-webkit-transform: scale(1.1);
