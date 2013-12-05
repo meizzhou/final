@@ -115,7 +115,7 @@ jQuery(document).ready(function($){
 jQuery(document).ready(function($){
 'use strict';
 	
-	$('body').on('click', 'ul.grid li a, .gallery-wrapper a', function(){
+	$('body').on('ul.grid li a, .gallery-wrapper a', function(){
 		var url = $(this).attr('href');
 		
 		$('.content').prepend('<div id="spinningSquaresG"><div id="spinningSquaresG_1" class="spinningSquaresG"></div><div id="spinningSquaresG_2" class="spinningSquaresG"></div><div id="spinningSquaresG_3" class="spinningSquaresG"></div><div id="spinningSquaresG_4" class="spinningSquaresG"></div><div id="spinningSquaresG_5" class="spinningSquaresG"></div><div id="spinningSquaresG_6" class="spinningSquaresG"></div><div id="spinningSquaresG_7" class="spinningSquaresG"></div><div id="spinningSquaresG_8" class="spinningSquaresG"></div></div>');
