@@ -8,8 +8,7 @@ body {
 }
 
 nav {
-	position: fixed;
-	margin-left: 20px;
+	float: left;
 	width: 150px;
 	height: 100%;
 	background-color: #FFF;
@@ -17,12 +16,10 @@ nav {
 	z-index: 10;
 }
 
-nav.models{
-	
-}
 
 .model {
 	margin-top: 100px;
+	padding-left: 120px;
 }
 
 .main {
@@ -37,6 +34,10 @@ nav.models{
 li {
 	font-size: 150%;
 	list-style-type: none;
+}
+
+nav {
+	margin-bottom: 40px;
 }
 
 .container {
