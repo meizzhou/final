@@ -34,7 +34,7 @@ li {
 .container {
 	margin-top: 20px;
 	margin-bottom: 50px;
-	margin-left: 180px;
+	margin-left: 200px;
 	width: 80%;
 }
 
@@ -124,6 +124,7 @@ li {
 .details {
 	text-align: center;
 	float: left;
+	margin: 5px;
 	padding: 5px;
 	-webkit-box-shadow: 2px 2px 8px 4px rgba(0,0,0,0.9), 0px 0px 2px rgba(0,0,0,0.2) inset;
 	-moz-box-shadow: 2px 2px 8px 4px rgba(0,0,0,0.9), 0px 0px 2px rgba(0,0,0,0.2) inset;
@@ -201,6 +202,7 @@ li {
 .galleryRow {
 	padding: 10px;
 }
+
 .galleryItem {
 	display: inline;
 	padding: 5px;
@@ -212,6 +214,7 @@ li {
 
 .about {
 	margin-bottom: 20px;
+	width: 100%;
 }
 
 .about:hover {
