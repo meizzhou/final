@@ -277,13 +277,15 @@ li {
 }
 
 .slideshow {
-	margin-left: 30%;
+	margin-left: 20%;
 	margin-right: 30%;
-	margin-top: 10%;
+	margin-top: 5%;
+	width: 95%;
+	height: 95%;
 }
 
 .galleryRow {
-	margin-left: 45%;
+	margin-left: 50%;
 	padding: 10px;
 }
 .galleryItem {
@@ -292,7 +294,7 @@ li {
 }
 
 hr {
-	margin-left: 20%;
+	margin-left: 25%;
 }
 
 .mod-pic {
@@ -305,4 +307,9 @@ hr {
 
 .about:hover {
 	 -webkit-filter: brightness(120%);
+}
+
+a#active {
+	color: white;
+	background-color: #C0C0C0;
 }
