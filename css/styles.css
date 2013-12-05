@@ -32,6 +32,8 @@ li {
 }
 
 .container {
+	margin-top: 20px;
+	margin-bottom: 50px;
 	margin-left: 180px;
 	width: 80%;
 }
@@ -131,6 +133,7 @@ li {
 }
 
 .bgImage{
+	margin-bottom: 5px;
 	display: inline-block;
 }
 
@@ -294,4 +297,12 @@ hr {
 
 .mod-pic {
 	padding: 5px;
+}
+
+.about {
+	margin-bottom: 20px;
+}
+
+.about:hover {
+	 -webkit-filter: brightness(120%);
 }
