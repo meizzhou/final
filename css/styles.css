@@ -42,6 +42,16 @@ li {
     display: none;
 }
 
+.modelAlbums{
+	display:none;
+}
+
+.albumNav:hover{
+	.modelAlbums{
+		display:block;
+	}
+}
+
 .bgImage{
 	background-repeat: no-repeat;
     background-position: 50% 0%, 0;
