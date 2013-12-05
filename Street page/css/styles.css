@@ -8,12 +8,17 @@ body {
 }
 
 nav {
-	float: left;
+	position: fixed;
+	margin-left: 20px;
 	width: 150px;
 	height: 100%;
 	background-color: #FFF;
 	opacity: .9;
 	z-index: 10;
+}
+
+.scrollingHotSpotLeft {
+	
 }
 
 

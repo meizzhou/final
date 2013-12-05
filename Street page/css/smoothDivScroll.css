@@ -15,22 +15,13 @@ div.scrollingHotSpotLeft
 	background-position: center center;
 	position: absolute;
 	z-index: 200;
-	left: 0;
+	left: 10;
 	/*  The first url is for Firefox and other browsers, the second is for Internet Explorer */
 	cursor: url(../images/cursors/cursor_arrow_left.png), url(../images/cursors/cursor_arrow_left.cur),w-resize;
 }
 
 /* Visible left hotspot */
-div.scrollingHotSpotLeftVisible
-{
-	background-image: url(../images/arrow_left.gif);				
-	background-color: #fff;
-	background-repeat: no-repeat;
-	opacity: 0.35; /* Standard CSS3 opacity setting */
-	-moz-opacity: 0.35; /* Opacity for really old versions of Mozilla Firefox (0.9 or older) */
-	filter: alpha(opacity = 35); /* Opacity for Internet Explorer. */
-	zoom: 1; /* Trigger "hasLayout" in Internet Explorer 6 or older versions */
-}
+
 
 /* Invisible right hotspot */
 div.scrollingHotSpotRight
@@ -48,16 +39,7 @@ div.scrollingHotSpotRight
 }
 
 /* Visible right hotspot */
-div.scrollingHotSpotRightVisible
-{
-	background-image: url(../images/arrow_right.gif);
-	background-color: #fff;
-	background-repeat: no-repeat;
-	opacity: 0.35;
-	filter: alpha(opacity = 35);
-	-moz-opacity: 0.35;
-	zoom: 1;
-}
+
 
 /* The scroll wrapper is always the same width and height as the containing element (div).
    Overflow is hidden because you don't want to show all of the scrollable area.

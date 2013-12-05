@@ -63,10 +63,15 @@ img {
 
 .logo {
   width: 100px;
-
+  
 }
 
-
+nav {
+  vertical-align: baseline;
+  margin: 0;
+padding: 0;
+border: 0;
+}
 
 @media print, screen and (max-width: 960px) {
   
