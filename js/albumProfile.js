@@ -27,12 +27,7 @@ function render(entries, template, container) {
             instance.find('.' + property);
             if (property =='pic') {
                 instance.find('.albumLinks').attr('href', this.name+'.html');
-                instance.find('.pic').attr({
-                    src: this.pic,
-                    name: this.name,
-                    alt: 'Picture of ' + this.name
-                });
-                instance.find('.pic').setBackground;
+                instance.find('.pic').css('background-image', 'url("' + this.pic + '")');
             } else {
                 instance.find('.' + property).html(this[property]);
             }

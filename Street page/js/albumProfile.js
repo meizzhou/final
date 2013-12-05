@@ -32,7 +32,7 @@ function render(entries, template, container) {
                     name: this.name,
                     alt: 'Picture of ' + this.name
                 });
-                instance.find('.pic').setBackground;
+                instance.find('.pic').setBackgrounds;
             } else {
                 instance.find('.' + property).html(this[property]);
             }
