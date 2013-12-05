@@ -8,6 +8,7 @@
 		<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/styles.css">
+        
 
 	</head>
 	<body>
@@ -29,23 +30,28 @@
 
             <div class="galleryRow">
                 <div class="galleryItem">
-                    <a href="#"><img src="img/briauna-thumb.jpg" alt="" onclick="changePic()" data-order="1"></a>
+                    <a href="#"><img src="img/briauna-thumb.jpg" alt="Thumbnail pic of model Briauna" onclick="changePic(1)"></a>
                 </div>
              
                 <div class="galleryItem">
-                    <a href="#"><img src="img/emilie-thumb.jpg" alt="" onclick="changePic()" data-order="2"></a>
+                    <a href="#"><img src="img/emilie-thumb.jpg" alt="Thumbnail pic of model Emilie" onclick="changePic(2)"></a>
                 </div>
 
                 <div class="galleryItem">
-                    <a href="#"><img src="img/giselle-thumb.jpg" alt="" onclick="changePic()" data-order="3"></a>
+                    <a href="#"><img src="img/giselle-thumb.jpg" alt="Thumbnail pic of model Giselle" onclick="changePic(3)"></a>
                 </div>
 
                 <div class="galleryItem">
-                    <a href="#"><img src="img/vlad-thumb.jpg" alt="" onclick="changePic()" data-order="4"></a>
+                    <a href="#"><img src="img/vlad-thumb.jpg" alt="Thumbnail pic of model Vlad" onclick="changePic(4)"></a>
+                </div>
+
+                <div class="galleryItem">
+                    <a href="#"><img src="img/sarena-thumb.jpg" alt="Thumbnail pic of model Sarena" onclick="changePic(5)"></a>
                 </div>
         
             </div>
         
+        <hr width=80%>
 
 
 
@@ -66,6 +72,8 @@
             image3.src="img/giselleProfile.jpg"
             var image4=new Image()
             image4.src="img/vladProfile.jpg"
+            var image5=new Image()
+            image5.src="img/sarenaProfile.jpg"
             //-->
         </script>
         <script type="text/javascript">
@@ -73,10 +81,14 @@
             //variable that will increment through the images
             var step=1
 
-            function changePic() {
-                step = document.getAttribute("data-order")
-                alert(step)
+            function changePic(pic) {
+
+                step = pic
+
                 document.images.slide.src=eval("image"+step+".src")
+
+                
+
             }
 
             function slideit(){
@@ -84,7 +96,7 @@
             if (!document.images)
             return
             document.images.slide.src=eval("image"+step+".src")
-            if (step<4)
+            if (step<5)
             step++
             else
             step=1
