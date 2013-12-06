@@ -257,3 +257,11 @@ a#active {
 	margin-left: 180px;
 	width: 80%;
 }
+
+footer {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	z-index: 20;
+	opacity: .5;
+}
