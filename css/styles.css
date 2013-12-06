@@ -204,7 +204,7 @@ li {
 	padding: 10px;
 	position: absolute;
 	top: 0px;
-	right: 0px;
+	left: 180px;
 	
 }
 
@@ -254,7 +254,7 @@ a#active {
 
 }
 
-.cont {
+.slide-container {
 	margin-left: 180px;
 	width: 80%;
 }
