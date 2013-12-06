@@ -19,18 +19,13 @@ nav {
 	z-index: 10;
 }
 
-.main {
-	display: inline-block;
-	max-height: 90%;
-}
-
 .logo {
 	width: 100px;
 }
 
-li {
-	font-size: 150%;
-	list-style-type: none;
+.main {
+	display: inline-block;
+	max-height: 90%;
 }
 
 .template {
@@ -47,13 +42,11 @@ li {
 	position: absolute;
 	top: 0px;
 	left: 180px;
-	
 }
 
 .galleryItem {
 	display: inline;
 	padding: 5px;
-
 }
 
 .mod-pic {
@@ -68,11 +61,6 @@ li {
 	 -webkit-filter: brightness(120%);
 }
 
-a#active {
-	color: white;
-	background-color: #C0C0C0;
-}
-
 .modelstream {
 	display: inline-block;
 	max-height: 90%;
@@ -83,16 +71,6 @@ a#active {
 	color: white;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 300%;
-}
-
-
-.header {
-	color: white;
-	font-weight: 500;
-	font-family: 'Script MT Bold';
-	padding-left: 80px;
-	font-size: 350%;
-	margin-top: 10px;
 }
 
 .container {
