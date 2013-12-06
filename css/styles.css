@@ -85,8 +85,9 @@ nav {
 
 footer {
 	position: fixed;
-	left: 5px;
+	left: 22px;
 	bottom: 0px;
 	z-index: 20;
 	opacity: .5;
+	font-size: 65%;
 }
