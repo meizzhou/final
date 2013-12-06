@@ -74,7 +74,7 @@ nav {
 }
 
 .container {
-	margin-bottom: 50px;
+	padding-bottom: 50px;
 	margin-left: 180px;
 }
 
@@ -89,8 +89,4 @@ footer {
 	bottom: 0px;
 	z-index: 20;
 	opacity: .5;
-}
-
-p {
-	font-size: 150%;
 }
