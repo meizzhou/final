@@ -288,20 +288,10 @@ nav ul li:hover ul {
 	padding: 20px; border-bottom: 1px dotted #c5c5c5; background: #fff;
 }
 
-header .widget:last-child {
-	border-bottom: 1px solid #c5c5c5;
-}
 
-header .widget.first {
-	border-top: 1px solid #c5c5c5;
-}
 
 .widget h6 {
 	font-size: 12px;
-}
-
-.widget p:last-child {
-	margin-bottom: 0;
 }
 
 .social a {
