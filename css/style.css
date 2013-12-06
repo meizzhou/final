@@ -4,11 +4,31 @@
 /*-----------------------------------------------------------------------------------*/
 
 body {
-	background: #f5f5f5; line-height: 24px; letter-spacing: 0.08em; color: #444; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+	background: #f5f5f5; font-family: 'Helvetica', 'Helvetica Neue', 'Arial', sans-serif; font-size: 12px; line-height: 24px; letter-spacing: 0.08em; color: #444; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4, h5, h6, nav a, .widget h6, .filters li a, blockquote, p[data-pullquote]:before, input[type="submit"] {
 	font-family: 'Oswald', sans-serif; text-transform: uppercase; font-weight: 400;
+}
+
+h1, h2, h3 {
+	font-weight: 700;
+}
+
+h6 {
+	font-weight: 300;
+}
+
+small {
+	display: block; font-size: 12px; font-family: 'Helvetica', 'Helvetica Neue', 'Arial', sans-serif; font-weight: normal; text-transform: none;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
 }
 
 a {
@@ -18,6 +38,18 @@ a {
 	-ms-transition: all 300ms ease-in-out;
 	-o-transition: all 300ms ease-in-out;
 	transition: all 300ms ease-in-out;
+}
+
+p {
+	margin-bottom: 25px;
+}
+
+p a {
+	border: none;
+}
+
+p a:hover {
+	color: #c0392b;
 }
 
 a:hover, .social a:hover, .filters li:hover, .filters li.active, .filters li:hover a, .filters li.active a, p a {
@@ -30,6 +62,39 @@ pre {
 
 nav a.active {
 	color: #e74c3c;
+}
+
+p[data-pullquote] {
+  display: block;
+}
+
+p[data-pullquote]:before {
+  content: attr(data-pullquote);
+  float: left;
+  width: 60%;
+  padding: 0 20px 20px 0;
+  font-size: 14px;
+  max-width: 350px;
+}
+
+blockquote {
+	font-size: 16px; letter-spacing: 1px; padding: 25px 13% 10px; margin: 0 0 30px;
+}
+
+blockquote small {
+	display: inline-block; letter-spacing: 3px; margin: 0 0 0 20px; position: relative; top: -2px;
+}
+
+input, textarea {
+	width: 100%; background: #f5f5f5; border: 1px solid #c5c5c5; padding: 15px 20px; margin: 0 0 15px;
+}
+
+textarea {
+	min-height: 150px;
+}
+
+input[type="submit"] {
+	width: auto; cursor: pointer;
 }
 
 .wrapper {
@@ -52,6 +117,29 @@ img {
     color: #555555;
 }
 
+sup, sub {
+	position: relative; font-size: 80%; line-height: 0; vertical-align: baseline;
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	top: 0.5em;
+}
+
+.cover { 
+  background: url(../img/single.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+hr {
+	margin-bottom: 20px; height: 1px; background: #c5c5c5; width: 100%; border: none; clear: both;
+}
 /*-----------------------------------------------------------------------------------*/
 /*	HELPER CLASSES
 /*-----------------------------------------------------------------------------------*/
@@ -88,6 +176,30 @@ img {
 	text-align: center;
 }
 
+.alert {
+	background: #f8f9fa; border: 1px solid #e6e9eb; padding: 5px 10px; margin-bottom: 13px;
+}
+
+.alert i {
+	float: right; cursor: pointer; font-size: 18px; padding-top: 4px;
+}
+
+.alert.danger {
+	background: #ffe5e3; color: #d90f00; border-color: #f9bbb8;
+}
+
+.alert.warning {
+	background: #fff6d6; color: #a26025; border-color: #f8d867;
+}
+
+.alert.success {
+	background: #cef0cb; color: #698733; border-color: #91cc8c;
+}
+
+.view-background {
+	position: fixed; z-index: 9; top: 20px; right: 20px; background: #fff; border: none; line-height: 0; padding: 13px; border: 1px solid #c5c5c5;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*	END HELPER CLASSES
 /*-----------------------------------------------------------------------------------*/
@@ -95,6 +207,30 @@ img {
 /*-----------------------------------------------------------------------------------*/
 /*	HEADER & NAV STYLES
 /*-----------------------------------------------------------------------------------*/
+
+#logo, nav a, header, #mobile-nav {
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+
+#logo {
+	font-family: 'Oswald', sans-serif; text-transform: uppercase; font-weight: 700; font-size: 45px; padding: 35px 20px 20px; line-height: 40px; background: #f5f5f5; border-bottom: 1px solid #c5c5c5;
+}
+
+#logo:hover {
+	background: #fff;
+}
+
+#logo a {
+	border: none;
+}
+
+#logo img {
+	margin-bottom: 13px; -webkit-filter: drop-shadow(1px 2px 0px #fff); filter: drop-shadow(1px 2px 0px #fff);
+}
 
 header {
 	position: absolute; top: 0; left: 0; display: block; width: 280px; z-index: 99; border-right: 1px solid #c5c5c5; min-height: 100%; background: #f5f5f5; box-shadow: 0px -1px 0px 1px #fff;
@@ -152,12 +288,26 @@ nav ul li:hover ul {
 	padding: 0px; border-bottom: 1px dotted #c5c5c5; background: #fff;
 }
 
+
+
 .widget h6 {
 	font-size: 12px;
 }
 
 .social a {
 	border-bottom: none; font-size: 20px; margin-left: 10px; color: #c5c5c5;
+}
+
+.filters {
+	padding: 0 20px 33px 40px; list-style: circle;
+}
+
+.filters li:hover, .filters li.active {
+	list-style: disc;
+}
+
+.filters li a {
+	border: none; position: relative; top: 2px;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -190,6 +340,10 @@ nav ul li:hover ul {
 
 .grid.portfolio li a h4, .grid.portfolio li a p, .more-hover a h4, .more-hover a p {
 	position: relative; top: 50%; margin-top: -22px;
+}
+
+.team .more-hover a h4, .team .more-hover a p {
+	margin-top: -27px;
 }
 
 .grid.portfolio li a p, .more-hover a p, .team .more-hover a p {
@@ -239,6 +393,49 @@ nav ul li:hover ul {
 	margin-left: -5px;
 }
 
+section {
+	max-width: 1000px; background: #fff; border-right: 1px solid #c5c5c5; border-bottom: 1px solid #c5c5c5;
+}
+
+section.content {
+	max-width: 1280px;
+}
+
+#comment-title {
+	margin-bottom: 40px;
+}
+
+.dark-wrapper #comment-title {
+	margin-bottom: 30px;
+}
+
+.comments input {
+	margin-bottom: 10px; max-width: 500px; clear: left; display: block;
+}
+
+.avatar {
+	padding: 5px; border: 1px solid #c7c7c7; box-shadow: 0 1px 1px #eaeaea, inset 0 1px 0 #fbfbfb; float: left; margin-right: 25px; position: relative;
+}
+
+.comment-content {
+	overflow: hidden; margin-bottom: 30px;
+}
+
+#comments li ul {
+	padding-left: 105px;
+}
+
+pre {
+	margin-bottom: 25px; padding: 10px 20px; border: 1px solid #c7c7c7; box-shadow: 0 1px 1px #eaeaea; display: block; border-left: 3px solid #e74c3c;
+}
+
+.unordered {
+	margin-bottom: 25px; list-style: square; margin-left: 50px;
+}
+
+.numbered {
+	margin-bottom: 25px; list-style: decimal; margin-left: 50px;
+}
 
 /*-----------------------------------------------------------------------------------*/
 /*	END HOMEPAGE STYLES
