@@ -38,7 +38,6 @@ li {
 	margin-bottom: 50px;
 	margin-left: 180px;
 	width: 100%;
-
 }
 
 .template {
@@ -198,14 +197,10 @@ li {
 
 .slideshow {
 	width: 100%;
-	-webkit-filter: grayscale; /*sepia, hue-rotate, invert....*/
-	-webkit-filter: brightness(70%);
-	
-	
-    
 }
 
 .galleryRow {
+	margin-top: 20px;
 	padding: 10px;
 	position: absolute;
 	top: 0px;
@@ -218,16 +213,6 @@ li {
 	padding: 5px;
 
 }
-
-.galleryItem:hover {
-	-webkit-transform: scale(1.1);
-	-moz-transform: scale(1.1);
-	-o-transform: scale(1.1);
-	-ms-transform: scale(1.1);
-	transform: scale(1.1);
-}
-
-
 
 .mod-pic {
 	padding: 5px;
@@ -258,11 +243,6 @@ a#active {
 	font-size: 300%;
 }
 
-.maintitle {
-	position: absolute;
-	top: 60%;
-	right: 65%;
-}
 
 .header {
 	color: white;
@@ -274,14 +254,7 @@ a#active {
 
 }
 
-hr {
-	margin-top: 0px;
-	margin-bottom: 0px;
+.cont {
+	margin-left: 180px;
+	width: 80%;
 }
-
-.secondElem {
-	width: 100%;
-	height: auto;
-	background-color: black;
-}
-
