@@ -112,3 +112,7 @@ footer {
 	z-index: 20;
 	opacity: .5;
 }
+
+p {
+	font-size: 150%;
+}
