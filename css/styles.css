@@ -37,7 +37,6 @@ li {
 	margin-top: 20px;
 	margin-bottom: 50px;
 	margin-left: 180px;
-	width: 100%;
 }
 
 .template {
@@ -204,7 +203,7 @@ li {
 	padding: 10px;
 	position: absolute;
 	top: 0px;
-	right: 0px;
+	left: 180px;
 	
 }
 
@@ -254,7 +253,7 @@ a#active {
 
 }
 
-.cont {
+.slide-container {
 	margin-left: 180px;
 	width: 80%;
 }
