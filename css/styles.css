@@ -261,7 +261,7 @@ a#active {
 .maintitle {
 	position: absolute;
 	top: 60%;
-	right: 70%;
+	right: 65%;
 }
 
 .header {
@@ -284,3 +284,4 @@ hr {
 	height: auto;
 	background-color: black;
 }
+
