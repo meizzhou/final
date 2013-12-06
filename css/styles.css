@@ -196,17 +196,20 @@ li {
 }
 
 .slideshow {
-	width: 90%;
-	height: 120%;
-	position: fixed;
-
+	width: 100%;
+	height: auto;
+	
     
 }
 
 .galleryRow {
 	padding: 10px;
-	position: fixed;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	
 }
+
 .galleryItem {
 	display: inline;
 	padding: 5px;
