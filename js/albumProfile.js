@@ -36,3 +36,4 @@ function render(entries, template, container) {
         container.fadeIn(1000);
     });
 }
+
