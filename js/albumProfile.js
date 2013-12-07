@@ -1,7 +1,6 @@
 
 $(function() {
   // Document is ready
-  render(models.entries, $('.profileTemplate'), $('.profileContainer'));
   render(models.alexAlbum, $('.alexTemplate'), $('.alexContainer'));
   render(models.ambikaAlbum, $('.ambikaTemplate'), $('.ambikaContainer'));
   render(models.elleryAlbum, $('.elleryTemplate'), $('.elleryContainer'));
@@ -28,16 +27,9 @@ function render(entries, template, container) {
             if (property =='pic') {
               instance.find('.pic').attr({
                     src: this.pic,
-                    name: this.name,
-                    alt: 'Picture of ' + this.name
+                    alt: 'Picture of model'
                 });
-            } else if (property =='alb') {
-              instance.find('.albumLinks').attr('href', this.name+'.html');
-              instance.find('.pic').css('background-image', 'url("' + this.alb + '")');
-            } else {
-                instance.find('.' + property).html(this[property]);
             }
-             
         }
         instance.removeClass('template');
         container.append(instance);
