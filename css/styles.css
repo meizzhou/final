@@ -204,6 +204,11 @@ a:hover, .social a:hover {
 /*	ABOUT STYLES
 /*-----------------------------------------------------------------------------------*/
 
+.about-container {
+	padding-bottom: 50px;
+	margin-left: 180px;
+	margin-right: 180px;
+}
 .about {
 	margin-bottom: 20px;
 }
