@@ -253,15 +253,6 @@ input[type="submit"] {
 	cursor: pointer;
 }
 
-pre {
-	margin-bottom: 25px;
-	padding: 10px 20px;
-	border: 1px solid #c7c7c7;
-	box-shadow: 0 1px 1px #eaeaea;
-	display: block;
-	border-left: 3px solid #e74c3c;
-}
-
 /*-----------------------------------------------------------------------------------*/
 /*	END CONTACT STYLES
 /*-----------------------------------------------------------------------------------*/
