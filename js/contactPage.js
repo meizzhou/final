@@ -5,8 +5,6 @@ $(function() {
       var nameValue = nameInput.val();
       var emailInput = $('.contactform input[name="email"]');
       var emailValue = emailInput.val();
-      var web = $('.contactform input[name="website"]');
-      var webValue = web.val();
       var commentInput = $('.contactform textarea[name="comment"]');
       var commentValue = commentInput.val();
       nameValue.length = 0;
