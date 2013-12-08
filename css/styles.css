@@ -207,6 +207,7 @@ a:hover, .social a:hover {
 	padding-bottom: 50px;
 	margin-left: 180px;
 	margin-right: 180px;
+	font-size: 150%;
 }
 .about {
 	margin-bottom: 20px;
@@ -228,12 +229,17 @@ a:hover, .social a:hover {
     width: 30.66%;
     margin-right: 20px;
     float: left;
+    padding: 20px;
 }
 
 .two_thirds { 
     width: 65.33%;
 	margin-right: 0;
     float: left;
+}
+
+.contactText {
+	font-size:150%;
 }
 
 input, textarea {
