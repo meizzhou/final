@@ -29,8 +29,8 @@ var image1=new Image();
     step++;
     else
     step=1;
-    //call function "slideit()" every 3.5 seconds
-    setTimeout("slideit()",3500);
+    //call function "slideit()" every 5.0 seconds
+    setTimeout("slideit()",5000);
     }
     slideit();
     //-->

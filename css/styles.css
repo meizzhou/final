@@ -170,9 +170,27 @@ a:hover, .social a:hover {
 /*-----------------------------------------------------------------------------------*/
 /*	SLIDESHOW STYLES
 /*-----------------------------------------------------------------------------------*/
-
+@-webkit-keyframes pulse {
+	0%      {opacity: 0;}
+    25%    {opacity: 1.0;}
+    85%    {opacity: 1.0;}
+   	100%   {opacity: 0;}
+}
+@keyframes pulse {
+	0%      {opacity: 0;}
+    25%    {opacity: 1.0;}
+    85%    {opacity: 1.0;}
+   	100%   {opacity: 0;}
+}
 .slideshow {
 	width: 100%;
+	-webkit-animation: pulse 5.0s infinite;
+	animation: pulse 5.0s infinite;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	transition: all 0.2s ease; 
 }
 
 .galleryRow {
@@ -181,6 +199,7 @@ a:hover, .social a:hover {
 	position: absolute;
 	top: 0px;
 	left: 180px;
+
 }
 
 .galleryItem {
