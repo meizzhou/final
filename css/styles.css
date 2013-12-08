@@ -77,6 +77,20 @@ footer {
 	min-width: 100%;
 }
 
+@media screen and (max-height: 400px) {
+.modelstream {
+	max-height: 380px;
+	min-width: 100%;
+}
+}
+
+@media screen and (max-width: 400px) {
+.modelstream {
+	max-height: 90%;
+	min-width: 219px;
+}
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*	END MODEL STYLES
 /*-----------------------------------------------------------------------------------*/
