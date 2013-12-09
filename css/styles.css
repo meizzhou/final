@@ -179,6 +179,7 @@ a:hover, .social a:hover {
 
 @media screen and (max-width: 767px) {
 	nav {
+		width: 100px;
 		margin-left: 0px;
 		position: relative;
 		float: left;
@@ -235,7 +236,9 @@ a:hover, .social a:hover {
 
 @media screen and (max-width: 767px) {
 
-
+	.slide-container {
+		margin-left: 120px;
+	}
 	.galleryItem {
 		display: block;
 		width: 45px;
@@ -244,7 +247,7 @@ a:hover, .social a:hover {
 
 	.galleryRow {
 		margin-top: 0px;
-		left: 170px;
+		left: 110px;
 	}
 }
 /*-----------------------------------------------------------------------------------*/
@@ -269,6 +272,21 @@ a:hover, .social a:hover {
 	 -webkit-filter: brightness(120%);
 }
 
+
+@media screen and (max-width: 767px) {
+	.about {
+		width: 100%;
+	}
+
+	.about-container {
+		width: 60%;
+		margin-left: 120px;
+		font-size: 100%;
+	}
+
+	.container {
+		margin-left: 120px;
+	}
 /*-----------------------------------------------------------------------------------*/
 /*	END ABOUT STYLES
 /*-----------------------------------------------------------------------------------*/
@@ -310,6 +328,19 @@ input[type="submit"] {
 	width: auto;
 	cursor: pointer;
 }
+
+@media screen and (max-width: 767px) {
+	.contactText {
+		font-size: 100%;
+	}
+	.one_third {
+		width: 100%;
+	}
+
+	.two_thirds {
+		width: 100%;
+	}
+
 
 /*-----------------------------------------------------------------------------------*/
 /*	END CONTACT STYLES
