@@ -206,13 +206,6 @@ a:hover, .social a:hover {
 }
 .slideshow {
 	width: 100%;
-	-webkit-animation: pulse 5.0s infinite;
-	animation: pulse 5.0s infinite;
-	-webkit-transition: all 0.2s ease;
-	-moz-transition: all 0.2s ease;
-	-o-transition: all 0.2s ease;
-	-ms-transition: all 0.2s ease;
-	transition: all 0.2s ease; 
 }
 
 .galleryRow {
