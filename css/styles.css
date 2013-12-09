@@ -177,6 +177,13 @@ a:hover, .social a:hover {
 	width: 100px;
 }
 
+@media screen and (max-width: 767px) {
+	nav {
+		margin-left: 0px;
+		position: relative;
+		float: left;
+	}
+}
 /*-----------------------------------------------------------------------------------*/
 /*	END NAV STYLES
 /*-----------------------------------------------------------------------------------*/
@@ -226,6 +233,20 @@ a:hover, .social a:hover {
 	width: 80%;
 }
 
+@media screen and (max-width: 767px) {
+
+
+	.galleryItem {
+		display: block;
+		width: 45px;
+		right: 0px;
+	}
+
+	.galleryRow {
+		margin-top: 0px;
+		left: 170px;
+	}
+}
 /*-----------------------------------------------------------------------------------*/
 /*	END SLIDESHOW STYLES
 /*-----------------------------------------------------------------------------------*/
